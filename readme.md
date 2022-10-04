@@ -14,8 +14,15 @@ Brain Network Transformer is the open-source implementation of the NeurIPS 2022 
 ---
 
 
+
+
 ## Usage
 
+1. Change the *path* attribute in file *source/conf/dataset/ABIDE.yaml* to the path of your dataset.
+
+2. Run the following command to train the model.
+
+```bash
 ```bash
 python -m source --multirun datasz=100p model=bnt,fbnetgen,brainnetcnn,transformer dataset=ABIDE,ABCD repeat_time=5 preprocess=mixup
 ```
