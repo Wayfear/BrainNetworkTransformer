@@ -45,7 +45,7 @@ Which preprocess to applied. The value is a list of preprocess names. For exampl
 ## Installion
 
 ```bash
-conda create --name egt python=3.9
+conda create --name bnt python=3.9
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 conda install -c conda-forge wandb
 conda install -c conda-forge autopep8
