@@ -3,14 +3,12 @@
 Brain Network Transformer is the open-source implementation of the NeurIPS 2022 paper [Brain Network Transformer]().
 
 
-[![Wayfear - BrainNetworkTransformer](https://img.shields.io/static/v1?label=Wayfear&message=BrainNetworkTransformer&color=blue&logo=github)](https://github.com/Wayfear/BrainNetworkTransformer "Go to GitHub repo")
+(https://github.com/Wayfear/BrainNetworkTransformer "Go to GitHub repo")
 [![stars - BrainNetworkTransformer](https://img.shields.io/github/stars/Wayfear/BrainNetworkTransformer?style=social)](https://github.com/Wayfear/BrainNetworkTransformer)
 [![forks - BrainNetworkTransformer](https://img.shields.io/github/forks/Wayfear/BrainNetworkTransformer?style=social)](https://github.com/Wayfear/BrainNetworkTransformer)
 ![language](https://img.shields.io/github/languages/top/Wayfear/BrainNetworkTransformer?color=lightgrey)
 ![lines](https://img.shields.io/tokei/lines/github/Wayfear/BrainNetworkTransformer?color=red)
 ![license](https://img.shields.io/github/license/Wayfear/BrainNetworkTransformer)
-![visitor](https://visitor-badge.glitch.me/badge?page_id=BrainNetworkTransformer)
-![issue](https://img.shields.io/github/issues/Wayfear/BrainNetworkTransformer)
 ---
 
 
