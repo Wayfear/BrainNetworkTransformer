@@ -45,7 +45,6 @@ python -m source --multirun datasz=100p model=bnt,fbnetgen,brainnetcnn,transform
 conda create --name bnt python=3.9
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 conda install -c conda-forge wandb
-conda install -c conda-forge autopep8
 pip install hydra-core --upgrade
 conda install -c conda-forge scikit-learn
 conda install -c conda-forge pandas
