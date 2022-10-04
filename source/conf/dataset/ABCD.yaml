@@ -1,0 +1,13 @@
+name: abcd
+batch_size: 16
+test_batch_size: 16
+val_batch_size: 16
+train_set: 0.7
+val_set: 0.1
+node_feature: /local/scratch/xkan/ABCD/ABCD/abcd_rest-pearson-HCP2016.npy
+time_seires: /local/scratch/xkan/ABCD/ABCD/abcd_rest-timeseires-HCP2016.npy
+node_id: /local/scratch/xkan/ABCD/ABCD/ids_HCP2016.txt
+seires_id: /local/scratch/xkan/ABCD/ABCD/ids_HCP2016_timeseires.txt
+label: /local/scratch/xkan/ABCD/ABCD/id2sex.txt
+drop_last: True
+stratified: False

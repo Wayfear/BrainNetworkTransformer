@@ -1,0 +1,18 @@
+- name: Adam
+  lr: 1.0e-4
+  match_rule: None
+  except_rule: None
+  no_weight_decay: false
+  weight_decay: 1.0e-4
+  lr_scheduler:
+    mode: cos # ['step', 'poly', 'cos']
+    base_lr: 1.0e-4
+    target_lr: 1.0e-5
+
+    decay_factor: 0.1 # for step mode
+    milestones: [0.3, 0.6, 0.9]
+    poly_power: 2.0 # for poly mode
+    lr_decay: 0.98
+
+    warm_up_from: 0.0
+    warm_up_steps: 0

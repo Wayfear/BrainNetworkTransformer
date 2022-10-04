@@ -1,0 +1,22 @@
+name: FBNETGEN
+
+# gru or cnn 
+extractor_type: gru
+embedding_size: 16
+window_size: 8
+
+cnn_pool_size: 16
+
+# product or linear
+graph_generation: product
+
+num_gru_layers: 4
+
+dropout: 0.5
+
+group_loss: true
+sparsity_loss: true
+sparsity_loss_weight: 1.0e-4
+
+# training parameter
+train: FBNetTrain
