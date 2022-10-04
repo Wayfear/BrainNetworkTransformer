@@ -23,7 +23,6 @@ Brain Network Transformer is the open-source implementation of the NeurIPS 2022 
 2. Run the following command to train the model.
 
 ```bash
-```bash
 python -m source --multirun datasz=100p model=bnt,fbnetgen,brainnetcnn,transformer dataset=ABIDE,ABCD repeat_time=5 preprocess=mixup
 ```
 
@@ -71,6 +70,7 @@ conda install -c conda-forge pandas
 
 ## Citation
 
+Please cite our paper if you find this code useful for your work:
 ```bibtex
 @inproceedings{
   kan2022bnt,
