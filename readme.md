@@ -36,7 +36,7 @@ python -m source --multirun datasz=100p model=bnt,fbnetgen,brainnetcnn,transform
 - **preprocess**, default=(mixup, non_mixup). Which preprocess to applied. The value is a list of preprocess names. For example, mixup means mixup, non_mixup means the dataset is feeded into models without preprocess.
 
 
-## Installion
+## Installation
 
 ```bash
 conda create --name bnt python=3.9
