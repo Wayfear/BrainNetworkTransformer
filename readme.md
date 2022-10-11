@@ -3,14 +3,11 @@
 Brain Network Transformer is the open-source implementation of the NeurIPS 2022 paper [Brain Network Transformer]().
 
 
-[![Wayfear - BrainNetworkTransformer](https://img.shields.io/static/v1?label=Wayfear&message=BrainNetworkTransformer&color=blue&logo=github)](https://github.com/Wayfear/BrainNetworkTransformer "Go to GitHub repo")
 [![stars - BrainNetworkTransformer](https://img.shields.io/github/stars/Wayfear/BrainNetworkTransformer?style=social)](https://github.com/Wayfear/BrainNetworkTransformer)
 [![forks - BrainNetworkTransformer](https://img.shields.io/github/forks/Wayfear/BrainNetworkTransformer?style=social)](https://github.com/Wayfear/BrainNetworkTransformer)
 ![language](https://img.shields.io/github/languages/top/Wayfear/BrainNetworkTransformer?color=lightgrey)
 ![lines](https://img.shields.io/tokei/lines/github/Wayfear/BrainNetworkTransformer?color=red)
 ![license](https://img.shields.io/github/license/Wayfear/BrainNetworkTransformer)
-![visitor](https://visitor-badge.glitch.me/badge?page_id=BrainNetworkTransformer)
-![issue](https://img.shields.io/github/issues/Wayfear/BrainNetworkTransformer)
 ---
 
 
@@ -28,7 +25,7 @@ Download the ABIDE dataset from [here](https://drive.google.com/file/d/14UGsikYH
 python -m source --multirun datasz=100p model=bnt,fbnetgen,brainnetcnn,transformer dataset=ABIDE,ABCD repeat_time=5 preprocess=mixup
 ```
 
-- **datasz**, default=(10p, 20p, 30p, 40p, 50p, 60p, 70p, 80p, 90p, 100p). How much data to use for training. The value is a percentage of the total number of samples in the dataset. For example, 10p means 10% of the total number of samples in the dataset.
+- **datasz**, default=(10p, 20p, 30p, 40p, 50p, 60p, 70p, 80p, 90p, 100p). How much data to use for training. The value is a percentage of the total number of samples in the dataset. For example, 10p means 10% of the total number of samples in the training set.
 
 - **model**, default=(bnt,fbnetgen,brainnetcnn,transformer). Which model to use. The value is a list of model names. For example, bnt means Brain Network Transformer, fbnetgen means FBNetGen, brainnetcnn means BrainNetCNN, transformer means VanillaTF.
 
@@ -39,7 +36,7 @@ python -m source --multirun datasz=100p model=bnt,fbnetgen,brainnetcnn,transform
 - **preprocess**, default=(mixup, non_mixup). Which preprocess to applied. The value is a list of preprocess names. For example, mixup means mixup, non_mixup means the dataset is feeded into models without preprocess.
 
 
-## Installion
+## Installation
 
 ```bash
 conda create --name bnt python=3.9
