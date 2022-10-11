@@ -3,7 +3,7 @@ name: FBNETGEN
 # gru or cnn 
 extractor_type: gru
 embedding_size: 16
-window_size: 8
+window_size: 4
 
 cnn_pool_size: 16
 
