@@ -61,6 +61,13 @@ conda install -c conda-forge pandas
   - hydra-core=1.2.0
 
 
+## Regression Performance
+
+We show regression performance which is not included in the paper. The results are the test MSE for the prediction of NIH Toolbox Picture Vocabulary Test Age 3+ v2.0 Uncorrected Standard Score, which is the "nihtbx_picvocab_uncorrected" in the [page](https://nda.nih.gov/data_structure.html?short_name=tlbx_cogsum01). From this figure, we can see that the performance of BNT (50.3) is the best among these models, with a large margin.
+
+![mse](figure/mse.png)
+
+
 ## Citation
 
 Please cite our paper if you find this code useful for your work:
