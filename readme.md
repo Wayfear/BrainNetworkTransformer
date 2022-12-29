@@ -1,6 +1,6 @@
 # Brain Network Transformer
 
-Brain Network Transformer is the open-source implementation of the NeurIPS 2022 paper [Brain Network Transformer]().
+Brain Network Transformer is the open-source implementation of the NeurIPS 2022 paper [Brain Network Transformer](https://arxiv.org/abs/2210.06681).
 
 
 [![stars - BrainNetworkTransformer](https://img.shields.io/github/stars/Wayfear/BrainNetworkTransformer?style=social)](https://github.com/Wayfear/BrainNetworkTransformer)
